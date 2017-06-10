@@ -45,11 +45,6 @@ DOTFILES="~/dotfiles"
 ############### Various Configuration Options ###############
 #############################################################
 
-# Set CLICOLOR if you want Ansi Colors in iTerm2 
-export CLICOLOR=1
-# Set colors to match iTerm2 Terminal Colors
-export TERM=xterm-256color
-
 # Sets vi Keymap
 bindkey -v
 export KEYTIMEOUT=1
@@ -59,6 +54,19 @@ unsetopt beep notify
 setopt autocd       # automatically cd if filename specified
 setopt extendedglob # extra file matching charcters
 setopt nomatch      # print error if no file 
+
+
+#############################################################
+########################## Colors ########################### 
+#############################################################
+
+# Set CLICOLOR if you want Ansi Colors in iTerm2 
+export CLICOLOR=1
+# Set colors to match iTerm2 Terminal Colors
+export TERM=xterm-256color
+
+LSCOLORS='gxfxcxdxbxegedabagacad'
+export LSCOLORS
 
 
 #############################################################
