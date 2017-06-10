@@ -55,6 +55,9 @@ setopt autocd       # automatically cd if filename specified
 setopt extendedglob # extra file matching charcters
 setopt nomatch      # print error if no file 
 
+# Set Tab Title to Hostname
+echo -ne "\e]1;`hostname`\a"
+
 
 #############################################################
 ########################## Colors ########################### 
