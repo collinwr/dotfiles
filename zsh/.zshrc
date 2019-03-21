@@ -57,7 +57,7 @@ setopt nomatch      # print error if no file
 
 # Set Tab Title and Prompt to MACHINE_NAME
 echo -ne "\e]1;$MACHINE_NAME\a"
-PROMPT="$MACHINE_NAME%% "
+PROMPT="$MACHINE_NAME%::%~ "
 
 
 #############################################################
