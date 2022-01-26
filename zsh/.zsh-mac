@@ -4,6 +4,7 @@
 
 alias flushCache="sudo killall -HUP mDNSResponder"
 alias finder="open -a Finder"
+alias vs="open -a Visual\ Studio\ Code"
 
 
 #############################################################
